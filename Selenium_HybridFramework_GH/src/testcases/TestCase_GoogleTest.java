@@ -1,5 +1,5 @@
 /*  1: Goal: The framework starts here. It is a testcase file. In this, 
- * 	- 1: Created a WebDriver
+ *   - 1: Created a WebDriver
  *   -2: Navigated to www.google.com 
  *   -3: Entered Keyword in Search TextBox
  *   -4: Clicked on Search button.
