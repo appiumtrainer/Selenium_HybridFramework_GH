@@ -1,1 +1,6 @@
-README
+Created a Hybrid Framework using Selenium & Java.
+Created a single test case GoogleTest. The test case steps & test data are stored in TestCase2.xls file. (which is in testexecution floder)
+I'm using TestNG @DataProvider. It retrieves testdata for testcase "GoogleTest"
+Test Steps contained Keywords. Each Keyword represents a test step. All Keyword related functions are stored in "Keywords_Run.java" class. Later, called this class & its methods to execute all my Keywords/test steps. 
+
+Note: Object Repository is in repository folder.
