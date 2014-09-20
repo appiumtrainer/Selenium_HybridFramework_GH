@@ -1,0 +1,3 @@
+GoogleURL=http://www.google.com
+GoogleTest_search=gbqfq
+GoogleTest_button=.//*[@id='gbqfb']
