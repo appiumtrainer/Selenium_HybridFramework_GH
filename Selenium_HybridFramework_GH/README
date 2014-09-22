@@ -1,10 +1,8 @@
 Hybrid Framework: 
-It is a combination of Keyword & Data Driven Framework. 
-All test cases, test steps & Test data are stored in excel sheet. And excel is stored in testexecution folder.
-Object Repository file is in repository folder. This file have “locator values” for each Object. 
-Framework contains two packages. Test case package & utility package.
-Testcase package contains all test cases files. (For ex: GoogleTest.java)
-Utility package contains all utility files (explained in below sections). 
+It is a combination of Keyword & Data Driven Framework. All test cases, test steps & Test data are stored in excel sheet. And excel is stored in testexecution folder.
+Object Repository file is in repository folder. This file have “locator values” for each Object.  Framework contains two packages. Test case package & utility package.
+- Testcase package contains all test cases files. (For ex: GoogleTest.java)
+- Utility package contains all utility files (explained in below sections). 
 
 Lets look what “GoogleTest” case does:
 1: Creates a WebDriver and launches Firefox browser
@@ -26,10 +24,12 @@ This class has @DataProvider annotation,  this return multidimensional object. W
 2: Creating an object for Xls_Reader class constructor. Which means, if you look at Xls_Reader.java constructor's code, it required a complete FilePath. Here we are creating an object by passing complete filepath.
 3: Creating a constructor. This constructor will be used by "TestCase" classes. Basically, TestCase class's constructor forward testcasename through constructor.
  
+ 
 2: Keywords_Run.java:
 1: This class contains a method which is used to performs/executes all Keywrods methods. 
 For ex: If user writes, openBrowser Keyword in "testcase excel sheet", the associated openBrowser() method will be executed here.
 2: executeKeywords() Method: This calls, many small methods like openbrowser(), navigate(), clickByXpath() & inputbyid(). 
+
 
 3: TestData_Utilities.java: This file have two methods.
 1: isExecutableFromTestCasesSheet : Verifies in Test Cases Sheet: It verifies, if Runmode set to "Y"
@@ -48,5 +48,4 @@ Now, lets see “How to add a new Test case to framework”:
 1: Addnew Test case name, and with its  “Test steps” & with its “Test data”
 2: In “Testing.TestCases package”,  Create a small .java class for this Test case (for ex: GoogleTest.java)
 3: If you add new Keywords in “TestSteps” sheet, then you need to add new keyword methods() in Keywords_Run.java & then update method “executeKeywords()”.
-
 
