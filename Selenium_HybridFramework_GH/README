@@ -1,4 +1,5 @@
-Hybrid Framework: It is a combination of Keyword & Data Driven Framework. 
+Hybrid Framework: 
+It is a combination of Keyword & Data Driven Framework. 
 All test cases, test steps & Test data are stored in excel sheet. And excel is stored in testexecution folder.
 Object Repository file is in repository folder. This file have “locator values” for each Object. 
 Framework contains two packages. Test case package & utility package.
