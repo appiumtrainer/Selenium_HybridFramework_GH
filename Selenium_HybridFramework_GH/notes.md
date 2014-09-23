@@ -7,9 +7,9 @@ Selenium Automation Framework
 
 {{site.github.project_title}}.
 
-Either adding #L52 to the end of a code file URL or simply clicking the line number will highlight that line number.
+Either adding #L10 to the end of a code file URL or simply clicking the line number will highlight that line number.
 
-It also works with ranges, e.g. #L53-L60, to select ranges, hold shift and click two lines:
+It also works with ranges, e.g. #L21-L29, to select ranges, hold shift and click two lines:
 
 [#Data Driven Framework]
 [+Test Script Modularity Framework]
