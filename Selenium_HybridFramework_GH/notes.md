@@ -11,7 +11,7 @@ Either adding #L10 to the end of a code file URL or simply clicking the line num
 
 It also works with ranges, e.g. #L21-L29, to select ranges, hold shift and click two lines:
 
-[BOLD]Data Driven Framework[BOLD]
+ **bold text**Data Driven Framework[BOLD]
 [+BOLD]Test Script Modularity Framework[+BOLD]
 [#BOLD]Keyword Driven Framework[#BOLD]
 [#B]Test Library Architecture Framework[#b]
