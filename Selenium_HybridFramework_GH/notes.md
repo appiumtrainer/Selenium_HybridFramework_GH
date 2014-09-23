@@ -5,7 +5,7 @@ Selenium Automation Framework
 [Link to a header](#awesome-section)
 [Link to a file](docs/readme)
 
-{{ site.github.project_title }}.
+{{site.github.project_title}}.
 
 
 
@@ -13,7 +13,7 @@ Selenium Automation Framework
 [+Test Script Modularity Framework]
 [B]Keyword Driven Framework[B]
 [#B]Test Library Architecture Framework[#b]
-Hybrid Framework
+{B}Hybrid Framework{B}
 
 
     What is a Framework
