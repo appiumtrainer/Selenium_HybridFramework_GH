@@ -8,7 +8,11 @@ Selenium Automation Framework
 {{site.github.project_title}}.
 
 Either adding #L10 to the end of a code file URL or simply clicking the line number will highlight that line number.
-
+| Tables        |      Are      |  Cool |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      |    centered   |   $12 |
+| zebra stripes |    are neat   |    $1 |
 It also works with ranges, e.g. #L21-L29, to select ranges, hold shift and click two lines:
 
 Mark *italic text* with one asterisk, **bold text** with two.
