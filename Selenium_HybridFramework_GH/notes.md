@@ -19,11 +19,13 @@ Selenium Automation Framework
     Example codes
 
 **********************************************************************************
-					17: Selenium Grid:
+
+					     17: Selenium Grid:
+
 
 
 888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888
-1: ABOUT SELENIUM GRID:
+[B]1: ABOUT SELENIUM GRID:
 Here, you will find notes with an example.
 Let say, you have a automation framework/suite in a machine called A. And you want to run this automation on other machines B & Machine C at same time. You need to run the automation from machine A (hence it is called hub) and B & C are called nodes.
 How to do this? You can achieve this by Selenium GRID. In olden days, Selenium GRID was provided as a separate jar file but recently it was included in selenium server jar file. Hence we need to start selenium server jar file to start selenium GRID. Along with that, we need to mention the role, Which means, if the mahcine is acting as a hub or node?
