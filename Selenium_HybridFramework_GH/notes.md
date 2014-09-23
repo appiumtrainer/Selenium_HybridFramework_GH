@@ -9,11 +9,11 @@ Selenium Automation Framework
 
 
 
-    Data Driven Framework
-    Test Script Modularity Framework
-    Keyword Driven Framework
-    Test Library Architecture Framework
-    Hybrid Framework
+[#Data Driven Framework]
+[+Test Script Modularity Framework]
+[B]Keyword Driven Framework[B]
+[#B]Test Library Architecture Framework[#b]
+Hybrid Framework
 
 
     What is a Framework
