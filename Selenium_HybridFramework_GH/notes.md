@@ -8,6 +8,14 @@ Selenium Automation Framework
 {{ site.github.project_title }}.
 
 
+
+    Data Driven Framework
+    Test Script Modularity Framework
+    Keyword Driven Framework
+    Test Library Architecture Framework
+    Hybrid Framework
+
+
     What is a Framework
     Framework Structure
         Keywords Library
